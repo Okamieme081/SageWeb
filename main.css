@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Figtree:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@1,300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+
+}
+.gradient-square {
+    width: 1700px;
+    height: 1000px;
+    background: linear-gradient(to bottom, #d3f2e6, #FFFFFF);
+  
+}
+.gradient-square-blue {
+    width: 1700px;
+    height: 1000px;
+    background: linear-gradient(to bottom, #a7f2eb, #cff8ff);
+}
+.container {
+      position: relative;
+}
+
+
+.text-on-square {
+      position: absolute;
+      top: 10%; /* Adjust this value to vertically center the text */
+      left: 50%; /* Adjust this value to horizontally center the text */
+      transform: translate(-50%, -50%);
+      color: #173F42; /* Set the text color */
+      font-family: Noto Sans;
+      font-weight: bold;
+      font-size: 55px ;
+      
+  }
+
+  .title-subtext {
+      position: absolute;
+      top: 25%; /* Adjust this value to vertically center the text */
+      left: 25%; /* Adjust this value to horizontally center the text */
+      color: #173F42; /* Set the text color */
+      font-family: Noto Sans;
+      font-size: 30px ;
+
+  }
+
+  .subtext-2{
+    position: absolute;
+    top: 60%; /* Adjust this value to vertically center the text */
+    left: 40%; /* Adjust this value to horizontally center the text */
+    color: #173F42; /* Set the text color */
+    font-family: Noto Sans;
+    font-size: 40px ;
+  }
+  .subtext-2{
+    position: absolute;
+    top: 60%; /* Adjust this value to vertically center the text */
+    left: 37%; /* Adjust this value to horizontally center the text */
+    color: #173F42; /* Set the text color */
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 50px ;
+  }
+  .info-title{
+    position: absolute;
+    top: 70%; /* Adjust this value to vertically center the text */
+    left: 39%; /* Adjust this value to horizontally center the text */
+    color: black; /* Set the text color */
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 40px ;
+  }
+  .info-text{
+    position: absolute;
+    text-align: center;
+    top: 80%; /* Adjust this value to vertically center the text */
+    left: 15%; /* Adjust this value to horizontally center the text */
+    color: black; /* Set the text color */
+    font-family: Noto Sans;;
+    font-size: 30px ;
+  }
+.about {
+  position: absolute;
+  text-align: center;
+  /* Adjust this value to horizontally center the text */
+  color: #173F42;
+  top: 115%; /* Adjust this value to vertically center the text */
+  left: 42%; /* Adjust this value to horizontally center the text */
+  /* Set the text color */
+   font-family: Noto Sans;
+    font-weight: bold;
+  font-size: 50px;
+}
+  
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 270px;
+}
